@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<html lang="eng">
+	 <head>
+	  <title>SARANG</title>
+
+<link rel="stylesheet" type="text/css" href="webpage.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 	</head>
+	<body>
+		<h1> sarang </h1>
+		<div class="row" id="desc">
+			<span>
+			Holi brings us joy and colors in our lives. Join us on this wonderful occasion with exciting events and  celebrate the colors.</span>
+		</div>
+		<div class ="body-container">
+		<div class="row events">
+
+		<div id= "event_dance" class = "col-sm-4" onclick="javascript: displayDetails('dance');">
+			<div class="event_logo_dance">
+			 <span>Dance</span>
+			</div>
+		</div>
+		<div id= "event_music" class = "col-sm-4" onclick="javascript: displayDetails('music');">
+			<div class="event_logo_music">
+				<span><i> Music</i></span>
+			</div>
+		</div>
+		<div id= "event_art" class = "col-sm-4" onclick="javascript: displayDetails('art');">
+			<div class="event_logo_arts"> 
+				<span style="color:white"><i>Arts</i></span>
+			</div>
+		</div>
+	</div>
+	<div class= "row">
+		<div id = "event_details">
+		</div>
+	</div>
+	<div class = "row" style="float:bottom"></div>
+
+<a class="button" href="contact.html">Contact us</a>
+</div>	
+  <script type="text/javascript">
+	  	function displayDetails(eventName){
+	  		var dance_details = "Each Dance team can consist of 6-10 dancers.Maximum performance time-10 min.Different types of costumes are allowed.Theme is related to festival of colours.Freestyling is allowed";
+	  		var music_details = "Each band consists of 8 members including singers and instrumentalists.Maximum time limit-15min.Theme for songs is about the festival of colours";
+	  		var art_details = "Potraits,oil paintings,Abstract art etc all kinds of art is encouraged.Time given is maximum 1hour";
+	  		var details="";
+	  		if (eventName== "dance")
+	  			details = dance_details;
+	  		else if (eventName== "music")
+	  			details = music_details;
+	  		else if (eventName== "art")
+	  			details = art_details;
+
+	  		$("#event_details").html(details);
+
+	  	}
+	  </script>
+	 
+	  </body>
+	 </html>

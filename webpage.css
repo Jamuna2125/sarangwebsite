@@ -1,0 +1,104 @@
+
+
+		.header-row {
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    height: 140px;
+    width: 100%;
+    background-position: center;
+    margin-top: 20px;
+}
+		
+		
+		
+	 .body-container {
+	  background-image: url(holi_header_bg.png);
+	   background-size: 100% 100%;
+	  background-attachment: fixed;
+      background-repeat:no-repeat;
+	   background-clip: padding-box;
+	  font-color:#FFFFFF;
+	  }
+	 .contact-container {
+    background-image: url(holi_header_bg.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    color: #EAEAEA;
+    padding-top: 50px;
+    padding-left: 200px;
+    height: 100%;
+}
+
+	  .event_logo_dance{
+	  	background-image: url(3.jpg);
+	  	height:100%;
+	     margin-left:150px;
+	  	 background-size: 300px 300px;
+		background-repeat: no-repeat;
+	  	padding:10px 10px 10px 10px;
+
+	  }
+	  .event_logo_music{
+	  	background-image: url(4.jpg);
+	  	height:100%;
+	  	 margin-left:150px;
+	  	 background-size: 300px 300px;
+		background-repeat: no-repeat;
+	  	padding:10px 10px 10px 10px;
+
+	  }
+	  .event_logo_arts{
+	  	background-image: url(5.jpg);
+	  	height:100%;
+		background-repeat: no-repeat;
+	  	padding:10px 10px 10px 10px;
+	  	 margin-left:150px;
+	  	 background-size: 300px 300px;
+	  }
+
+
+	  .events .col-sm-4{
+	  	height:300px;
+	  	
+	  }
+
+	#event_details {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color:#E9F714;
+	font-size: 30px;
+    }
+
+		
+	.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    float:right;
+     margin-right: 50px;
+}
+.desc {
+    color: #E9F714;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    padding: 40px;
+}
+
+input.contact-input {
+    color: #343434;
+}
